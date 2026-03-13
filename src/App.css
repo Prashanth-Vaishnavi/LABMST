@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #ff9ecf, #ffc3e6);
+}
+
+/* Center the app */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+/* Title */
+.title {
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* Counter card */
+.counter-box {
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.counter-box:hover {
+  transform: scale(1.05);
+}
+
+/* Big counter number */
+.counter-number {
+  font-size: 70px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* Button container */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5ca8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e0438d;
+  transform: scale(1.05);
+}
